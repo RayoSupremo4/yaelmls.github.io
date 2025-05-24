@@ -2,12 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://yaelmls.github.io/categories/</loc>
+    <loc>https://www.yaelmls.com/categories/</loc>
   </url><url>
-    <loc>https://yaelmls.github.io/about/</loc>
+    <loc>https://www.yaelmls.com/cv/</loc>
   </url><url>
-    <loc>https://yaelmls.github.io/tags/</loc>
+    <loc>https://www.yaelmls.com/projects/postproduccion/</loc>
   </url><url>
-    <loc>https://yaelmls.github.io/</loc>
+    <loc>https://www.yaelmls.com/tags/postproducci%C3%B3n/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/projects/produccion/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/tags/producci%C3%B3n/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/projects/programacion/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/tags/programaci%C3%B3n/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/projects/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/reel/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/about/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/tags/</loc>
+  </url><url>
+    <loc>https://www.yaelmls.com/</loc>
   </url>
 </urlset>
