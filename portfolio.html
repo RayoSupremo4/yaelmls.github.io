@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yael Moisés Larios Sepúlveda | Productor Audiovisual</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: linear-gradient(135deg, #1a2980 0%, #26d0ce 100%);
+      color: #fff;
+      min-height: 100vh;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .avatar {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #fff;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.2);
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 400;
+      margin-bottom: 30px;
+      color: #e0e0e0;
+    }
+    .about {
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+      color: #f3f3f3;
+    }
+    .portfolio {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .project {
+      background: rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 24px;
+      width: 260px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .project:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    }
+    .project-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      color: #26d0ce;
+    }
+    .project-desc {
+      font-size: 1rem;
+      color: #e0e0e0;
+    }
+    .contact {
+      margin-top: 30px;
+    }
+    .contact a {
+      color: #fff;
+      background: #26d0ce;
+      padding: 12px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      box-shadow: 0 2px 8px rgba(38,208,206,0.18);
+      transition: background 0.2s;
+    }
+    .contact a:hover {
+      background: #1a2980;
+    }
+    @media (max-width: 700px) {
+      .portfolio { flex-direction: column; align-items: center; }
+      .project { width: 90%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="assets/images/avatar.png" alt="Yael Moisés Larios Sepúlveda" class="avatar">
+    <h1>Yael Moisés Larios Sepúlveda</h1>
+    <h2>Productor Audiovisual</h2>
+    <div class="about">
+      Soy un apasionado productor audiovisual con experiencia en la creación de contenido visual impactante, dirección de proyectos, edición de video y fotografía profesional. Mi objetivo es contar historias que conecten y emocionen a la audiencia.
+    </div>
+    <div class="portfolio">
+      <div class="project">
+        <div class="project-title">Cortometraje "Luz y Sombra"</div>
+        <div class="project-desc">Dirección y edición de un cortometraje experimental sobre la dualidad humana.</div>
+      </div>
+      <div class="project">
+        <div class="project-title">Videoclip "Ritmo Urbano"</div>
+        <div class="project-desc">Producción y postproducción de videoclip musical para artista emergente.</div>
+      </div>
+      <div class="project">
+        <div class="project-title">Documental "Voces del Barrio"</div>
+        <div class="project-desc">Realización de documental social enfocado en historias de vida inspiradoras.</div>
+      </div>
+    </div>
+    <div class="contact">
+      <a href="mailto:yaelmls@email.com">Contáctame</a>
+    </div>
+  </div>
+</body>
+</html>
