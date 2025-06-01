@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Kross</title>
+    <link>https://demo.gethugothemes.com/kross/site/categories/</link>
+    <description>Recent content in Categories on Kross</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 May 2023 12:14:34 +0600</lastBuildDate>
+    <atom:link href="https://demo.gethugothemes.com/kross/site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Desarrollo Web</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/desarrollo-web/</link>
+      <pubDate>Fri, 12 May 2023 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/desarrollo-web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño Ui/Ux</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-ui/ux/</link>
+      <pubDate>Fri, 12 May 2023 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-ui/ux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aplicación</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/aplicaci%C3%B3n/</link>
+      <pubDate>Wed, 15 Mar 2023 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/aplicaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Javascript</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/javascript/</link>
+      <pubDate>Wed, 15 Mar 2023 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/javascript/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Desarrollo</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/desarrollo/</link>
+      <pubDate>Sun, 20 Nov 2022 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/desarrollo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Diseño Web</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-web/</link>
+      <pubDate>Sun, 20 Nov 2022 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-web/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>E-Commerce</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/e-commerce/</link>
+      <pubDate>Sun, 20 Nov 2022 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/e-commerce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Branding</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/branding/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/branding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/design/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/development/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Illustration</title>
+      <link>https://demo.gethugothemes.com/kross/site/categories/illustration/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/categories/illustration/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

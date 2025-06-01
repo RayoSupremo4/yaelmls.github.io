@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Diseño Ui/Ux on Kross</title>
+    <link>https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-ui/ux/</link>
+    <description>Recent content in Diseño Ui/Ux on Kross</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 12 May 2023 12:14:34 +0600</lastBuildDate>
+    <atom:link href="https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-ui/ux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sitio Web Corporativo Responsivo</title>
+      <link>https://demo.gethugothemes.com/kross/site/portfolio/project-1/</link>
+      <pubDate>Fri, 12 May 2023 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/portfolio/project-1/</guid>
+      <description>&lt;h4 id=&#34;descripción-del-proyecto&#34;&gt;Descripción del Proyecto&lt;/h4&gt;&#xA;&lt;p&gt;Empresa Innovadora S.A. necesitaba un sitio web completamente nuevo que reflejara su identidad de marca actualizada y proporcionara una mejor experiencia de usuario. El sitio debía ser completamente responsivo, optimizado para SEO y fácil de mantener por su equipo interno.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

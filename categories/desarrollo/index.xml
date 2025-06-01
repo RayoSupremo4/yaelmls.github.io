@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Desarrollo on Kross</title>
+    <link>https://demo.gethugothemes.com/kross/site/categories/desarrollo/</link>
+    <description>Recent content in Desarrollo on Kross</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Nov 2022 12:14:34 +0600</lastBuildDate>
+    <atom:link href="https://demo.gethugothemes.com/kross/site/categories/desarrollo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tienda en Línea para Marca de Moda</title>
+      <link>https://demo.gethugothemes.com/kross/site/portfolio/project-3/</link>
+      <pubDate>Sun, 20 Nov 2022 12:14:34 +0600</pubDate>
+      <guid>https://demo.gethugothemes.com/kross/site/portfolio/project-3/</guid>
+      <description>&lt;h4 id=&#34;descripción-del-proyecto&#34;&gt;Descripción del Proyecto&lt;/h4&gt;&#xA;&lt;p&gt;Moda Exclusiva, una marca emergente de ropa y accesorios, necesitaba una plataforma de comercio electrónico atractiva y funcional para vender sus productos en línea. El cliente buscaba una solución que reflejara la estética única de su marca mientras ofrecía una experiencia de compra fluida y segura para sus clientes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

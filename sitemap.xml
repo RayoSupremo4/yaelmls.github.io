@@ -2,30 +2,100 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.yaelmls.com/categories/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/</loc>
+    <lastmod>2023-05-12T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/cv/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/</loc>
+    <lastmod>2023-05-12T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/projects/postproduccion/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/desarrollo-web/</loc>
+    <lastmod>2023-05-12T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/tags/postproducci%C3%B3n/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-ui/ux/</loc>
+    <lastmod>2023-05-12T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/projects/produccion/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/</loc>
+    <lastmod>2023-05-12T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/tags/producci%C3%B3n/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-1/</loc>
+    <lastmod>2023-05-12T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/projects/programacion/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/aplicaci%C3%B3n/</loc>
+    <lastmod>2023-03-15T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/tags/programaci%C3%B3n/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-2/</loc>
+    <lastmod>2023-03-15T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/projects/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/javascript/</loc>
+    <lastmod>2023-03-15T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/reel/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/desarrollo/</loc>
+    <lastmod>2022-11-20T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/about/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/dise%C3%B1o-web/</loc>
+    <lastmod>2022-11-20T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/tags/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/e-commerce/</loc>
+    <lastmod>2022-11-20T12:14:34+06:00</lastmod>
   </url><url>
-    <loc>https://www.yaelmls.com/</loc>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-3/</loc>
+    <lastmod>2022-11-20T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/blog/post-1/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/blog/post-2/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/blog/post-3/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/blog/post-4/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/blog/post-5/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/blog/post-6/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-4/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-5/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-6/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-7/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-8/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-9/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/blog/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/branding/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/design/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/development/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/categories/illustration/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/about/</loc>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/contact/</loc>
+  </url><url>
+    <loc>https://demo.gethugothemes.com/kross/site/tags/</loc>
   </url>
 </urlset>
