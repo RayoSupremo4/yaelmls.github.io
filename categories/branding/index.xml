@@ -2,24 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Branding on Yael Larios</title>
-    <link>https://demo.gethugothemes.com/kross/site/categories/branding/</link>
+    <link>/categories/branding/</link>
     <description>Recent content in Branding on Yael Larios</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</managingEditor>
+    <webMaster>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</webMaster>
     <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
-    <atom:link href="https://demo.gethugothemes.com/kross/site/categories/branding/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/branding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artwork Design</title>
-      <link>https://demo.gethugothemes.com/kross/site/portfolio/project-7/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/portfolio/project-7/</guid>
+      <link>/portfolio/project-7/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/portfolio/project-7/</guid>
       <description>&lt;h4 id=&#34;project-requirements&#34;&gt;Project Requirements&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip&#xA;ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu&#xA;fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt&#xA;mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Artwork Design</title>
-      <link>https://demo.gethugothemes.com/kross/site/portfolio/project-9/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/portfolio/project-9/</guid>
+      <link>/portfolio/project-9/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/portfolio/project-9/</guid>
       <description>&lt;h4 id=&#34;project-requirements&#34;&gt;Project Requirements&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip&#xA;ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu&#xA;fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt&#xA;mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>

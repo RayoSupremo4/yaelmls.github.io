@@ -2,10 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Yael Larios</title>
-    <link>https://demo.gethugothemes.com/kross/site/tags/</link>
+    <link>/tags/</link>
     <description>Recent content in Tags on Yael Larios</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://demo.gethugothemes.com/kross/site/tags/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</managingEditor>
+    <webMaster>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</webMaster>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

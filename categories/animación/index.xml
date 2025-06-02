@@ -2,24 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Animación on Yael Larios</title>
-    <link>https://demo.gethugothemes.com/kross/site/categories/animaci%C3%B3n/</link>
+    <link>/categories/animaci%C3%B3n/</link>
     <description>Recent content in Animación on Yael Larios</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</managingEditor>
+    <webMaster>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</webMaster>
     <lastBuildDate>Thu, 30 Nov 2023 12:00:00 +0600</lastBuildDate>
-    <atom:link href="https://demo.gethugothemes.com/kross/site/categories/animaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/animaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cortometraje Stop Motion &#39;Sabor a mí&#39;</title>
-      <link>https://demo.gethugothemes.com/kross/site/portfolio/project-1/</link>
-      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/portfolio/project-1/</guid>
+      <link>/portfolio/project-1/</link>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/portfolio/project-1/</guid>
       <description>&lt;h4 id=&#34;descripción-del-proyecto&#34;&gt;Descripción del Proyecto&lt;/h4&gt;&#xA;&lt;p&gt;&amp;ldquo;Sabor a mí&amp;rdquo; es un cortometraje de animación stop motion que cuenta la historia de una pareja que expresa su amor cocinándose a sí mismos para el otro. Como productor del proyecto, fui responsable de la gestión completa desde la concepción hasta la distribución final.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dirección de Animación en STUDIO4</title>
-      <link>https://demo.gethugothemes.com/kross/site/portfolio/project-2/</link>
-      <pubDate>Tue, 01 Nov 2022 12:00:00 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/portfolio/project-2/</guid>
+      <link>/portfolio/project-2/</link>
+      <pubDate>Tue, 01 Nov 2022 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/portfolio/project-2/</guid>
       <description>&lt;h4 id=&#34;descripción-del-proyecto&#34;&gt;Descripción del Proyecto&lt;/h4&gt;&#xA;&lt;p&gt;Como Director de Animación en STUDIO4, lideré el desarrollo de contenido animado para una plataforma educativa innovadora diseñada para ayudar a las personas a encontrar escuelas adecuadas a sus necesidades. El proyecto requería la creación de animaciones atractivas y educativas que explicaran el funcionamiento de la plataforma y presentaran las diferentes opciones educativas de manera clara y accesible.&lt;/p&gt;</description>
     </item>
   </channel>

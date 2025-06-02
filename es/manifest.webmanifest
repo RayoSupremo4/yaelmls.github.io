@@ -1,0 +1,56 @@
+{
+  "name": "Yael Larios",
+  "short_name": "Yael Larios",
+  "lang": "es-mx",
+  "display": "fullscreen",
+  "orientation" : "portrait",
+  "start_url": "/?utm_source=web_app_manifest",
+  "background_color": "#fff",
+  "theme_color": "#41228e",
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  "icons": [
+    {
+      "src": "/images/favicon_hu_71f2aaf1f917d5fc.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_7d3735afa0d89f14.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_35cb8999ad8d1062.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_4d99a0464a4eb610.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon_hu_5b133835096c22f0.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicon_hu_1d3dd9c4e893584c.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+  
+  
+}

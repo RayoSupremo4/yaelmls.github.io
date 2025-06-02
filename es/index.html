@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+	<meta name="generator" content="Hugo 0.147.5">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Yael Larios</title>
+  
+  
+  <link rel="shortcut icon" href="/images/favicon.png">
+  
+  
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  
+  
+  
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+
+
+<link rel="stylesheet" href="/scss/custom.min.css">
+
+
+
+<style>
+   
+  .animacion-fondo {
+    background: linear-gradient(-45deg, #6c5ce7, #00cec9, #fdcb6e, #ff7675);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+   
+  .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: #2d3436;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #6c5ce7;
+    border-bottom-color: #00cec9;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  .loader-inner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #fdcb6e;
+    border-bottom-color: #ff7675;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: spin 1s linear infinite reverse;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+   
+  .header-animado {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all 0.3s ease;
+    padding: 20px 0;
+    background-color: transparent;
+  }
+  
+  .header-animado.scrolled {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+  
+  .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #2d3436 !important;
+  }
+  
+   
+  
+  .nav-link {
+    font-weight: 500;
+    position: relative;
+    padding: 10px 15px !important;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #6c5ce7;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  .nav-link:hover::after,
+  .nav-item.active .nav-link::after {
+    width: 80%;
+  }
+  
+   
+  .footer-creativo {
+    background-color: #2d3436;
+    color: #fff;
+    padding: 60px 0 30px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .footer-creativo::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #6c5ce7, #00cec9, #fdcb6e, #ff7675);
+  }
+  
+  .footer-heading {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .footer-heading::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #6c5ce7;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #dfe6e9;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #6c5ce7;
+    text-decoration: none;
+    padding-left: 5px;
+  }
+  
+  .footer-links i {
+    margin-right: 10px;
+    color: #6c5ce7;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .social-icons li {
+    margin-right: 15px;
+  }
+  
+  .social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    background-color: #6c5ce7;
+    transform: translateY(-3px);
+  }
+  
+  .copyright {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #b2bec3;
+  }
+</style>
+  
+  
+  
+
+<link rel="stylesheet" href="/scss/custom.min.css">
+
+</head>
+
+<body class="animacion-fondo">
+  
+  <div class="preloader">
+    <div class="loader">
+      <div class="loader-inner"></div>
+    </div>
+  </div>
+  
+  
+  <header class="header-animado">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="/">Yael Moises Larios Sepulveda</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Inicio</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/about">Sobre Mí</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/portfolio">Portafolio</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/blog">Blog</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  
+  
+  <main>
+    
+
+
+<section class="hero-section" id="home">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <div class="hero-content animated-element">
+          <h1 class="mb-4">Yael Moises <span>Larios Sepulveda</span></h1>
+          <div class="typed-container mb-4">
+            <span class="profession">Especialista en </span>
+            <span class="typed-text"></span>
+          </div>
+          <p class="lead mb-4">Productor con experiencia en desarrollo de videojuegos, animación y medios de entretenimiento en general. Apasionado en crear contenido educativo y de concientización para todo tipo de audiencias.</p>
+          <div class="hero-buttons">
+            <a href="#portfolio" class="btn btn-primary mr-3">Ver Portafolio</a>
+            <a href="#contact" class="btn btn-outline-primary">Contacto</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero-image animated-element">
+          <div class="hero-shape"></div>
+          <img src="images/illustrations/hero-illustration.svg" alt="Ilustración de Yael" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+
+<section class="about-section section" id="about">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center mb-5 animated-element">
+          <h2>Sobre Mí</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-5 mb-4 mb-lg-0">
+        <div class="about-image animated-element">
+          <img src="images/about/profile.jpg" alt="Yael Moises Larios Sepulveda" class="img-fluid rounded shadow">
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="about-content animated-element">
+          <h3 class="mb-4">Me considero una persona creativa con ideas fuera de lo común</h3>
+          <p class="mb-4">Productor con experiencia en desarrollo de videojuegos, animación y medios de entretenimiento en general. Apasionado en crear contenido educativo y de concientización para todo tipo de audiencias.</p>
+          
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <div class="about-list">
+                <h5 class="mb-3">Educación</h5>
+                <ul class="list-unstyled">
+                  <li><i class="ti-check-box mr-2"></i>Tecnológico de Monterrey, Guadalajara</li>
+                  <li><i class="ti-check-box mr-2"></i>Arte Digital</li>
+                  <li><i class="ti-check-box mr-2"></i>Agosto 2021 - Julio 2025</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="about-list">
+                <h5 class="mb-3">Especialización</h5>
+                <ul class="list-unstyled">
+                  <li><i class="ti-check-box mr-2"></i>Estudio especializado en CGI para publicidad</li>
+                  <li><i class="ti-check-box mr-2"></i>Desarrollo de videojuegos</li>
+                  <li><i class="ti-check-box mr-2"></i>Animación y producción</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <a href="cv/Yael_MLS_CV_EN.pdf" class="btn btn-primary" target="_blank">Descargar CV</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="skills-section section bg-light" id="skills">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center mb-5 animated-element">
+          <h2>Habilidades</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-6 mb-4 animated-element">
+        <div class="skill-category mb-4">
+          <h4>Liderazgo y Producción</h4>
+          <div class="divider mb-4"></div>
+          
+          <div class="skill-item mb-4">
+            <h5>Gestión y organización en la realización de todo el material audiovisual</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="90%" style="width: 0; background-color: #6c5ce7;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <h5>Uso de metodologías como SCRUM en desarrollo de videojuegos y animación</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="85%" style="width: 0; background-color: #00cec9;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <h5>Creación de mapas y diagramas para visualizar proyectos</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="80%" style="width: 0; background-color: #fdcb6e;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 mb-4 animated-element">
+        <div class="skill-category mb-4">
+          <h4>Optimización</h4>
+          <div class="divider mb-4"></div>
+          
+          <div class="skill-item mb-4">
+            <h5>Gestión de herramientas como ShotGrid, Notion, Monday, Asana</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="85%" style="width: 0; background-color: #6c5ce7;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <h5>Realización e implementación de procesos y automatizaciones</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="80%" style="width: 0; background-color: #00cec9;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <h5>Búsqueda e investigación de nuevas herramientas</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="90%" style="width: 0; background-color: #fdcb6e;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 mb-4 mb-lg-0 animated-element">
+        <div class="skill-category">
+          <h4>Colaboración y Empatía</h4>
+          <div class="divider mb-4"></div>
+          
+          <div class="skill-item mb-4">
+            <h5>Resolución de conflictos mediante técnicas de comunicación</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="85%" style="width: 0; background-color: #6c5ce7;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <h5>Organización de eventos y actividades de integración</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="80%" style="width: 0; background-color: #00cec9;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <h5>Enfoque en mantener la moral del equipo</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="90%" style="width: 0; background-color: #fdcb6e;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-6 animated-element">
+        <div class="skill-category">
+          <h4>Herramientas Técnicas</h4>
+          <div class="divider mb-4"></div>
+          
+          <div class="skill-item mb-4">
+            <h5>ShotGrid, Notion, Monday, Asana</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="90%" style="width: 0; background-color: #6c5ce7;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item mb-4">
+            <h5>Tópico, Juncas y Vision</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="85%" style="width: 0; background-color: #00cec9;"></div>
+            </div>
+          </div>
+          
+          <div class="skill-item">
+            <h5>CleanUpBot para cortos StopMotion</h5>
+            <div class="skill-bar">
+              <div class="progress-bar" data-percent="75%" style="width: 0; background-color: #fdcb6e;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="experience-section section" id="experience">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center mb-5 animated-element">
+          <h2>Experiencia</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="timeline animated-element">
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h4>Asistente de producción en Ploop</h4>
+            <span class="timeline-date">Febrero 2023 - Actualidad</span>
+          </div>
+          <div class="timeline-body">
+            <p>Estudio especializado en CGI para publicidad</p>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h4>Productor Cortometraje de Stop Motion "Sabor a mí"</h4>
+            <span class="timeline-date">Agosto-Noviembre 2023</span>
+          </div>
+          <div class="timeline-body">
+            <p>Cortometraje de animación stop motion de una pareja que expresa su amor cocinándose a sí mismos para el otro.</p>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h4>Director de Animación STUDIO4</h4>
+            <span class="timeline-date">Noviembre 2022-2024</span>
+          </div>
+          <div class="timeline-body">
+            <p>Plataforma donde las personas pueden buscar y encontrar escuelas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="portfolio-section section bg-light" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center mb-5 animated-element">
+          <h2>Portafolio</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <ul class="portfolio-filter list-inline">
+          <li class="list-inline-item active" data-filter="*">Todos</li>
+          <li class="list-inline-item" data-filter=".animacion">Animación</li>
+          <li class="list-inline-item" data-filter=".produccion">Producción</li>
+          <li class="list-inline-item" data-filter=".videojuegos">Videojuegos</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row portfolio-container">
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item animacion">
+        <div class="portfolio-wrap">
+          <img src="images/portfolio/item-1.png" alt="Cortometraje Sabor a mí" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Cortometraje "Sabor a mí"</h4>
+              <p>Stop Motion</p>
+              <a href="portfolio/project-1" class="portfolio-link">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item produccion">
+        <div class="portfolio-wrap">
+          <img src="images/portfolio/item-2.png" alt="Producción en Ploop" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Producción en Ploop</h4>
+              <p>CGI para publicidad</p>
+              <a href="portfolio/project-2" class="portfolio-link">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item videojuegos">
+        <div class="portfolio-wrap">
+          <img src="images/portfolio/item-3.png" alt="Desarrollo de Videojuegos" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Desarrollo de Videojuegos</h4>
+              <p>Proyectos Educativos</p>
+              <a href="portfolio/project-3" class="portfolio-link">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="stats-section section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <div class="stats-item animated-element">
+          <div class="stats-icon">
+            <i class="ti-video-camera"></i>
+          </div>
+          <h3 class="counter" data-count="15">15</h3>
+          <p>Proyectos Completados</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+        <div class="stats-item animated-element">
+          <div class="stats-icon">
+            <i class="ti-user"></i>
+          </div>
+          <h3 class="counter" data-count="25">25</h3>
+          <p>Clientes Satisfechos</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <div class="stats-item animated-element">
+          <div class="stats-icon">
+            <i class="ti-cup"></i>
+          </div>
+          <h3 class="counter" data-count="5">5</h3>
+          <p>Premios Ganados</p>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6">
+        <div class="stats-item animated-element">
+          <div class="stats-icon">
+            <i class="ti-time"></i>
+          </div>
+          <h3 class="counter" data-count="3">3</h3>
+          <p>Años de Experiencia</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="contact-section section bg-light" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center mb-5 animated-element">
+          <h2>Contacto</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-5 mb-5 mb-lg-0">
+        <div class="contact-info animated-element">
+          <h3 class="mb-4">Información de Contacto</h3>
+          
+          <div class="contact-item mb-4">
+            <div class="contact-icon">
+              <i class="ti-email"></i>
+            </div>
+            <div class="contact-text">
+              <h5>Email</h5>
+              <p><a href="mailto:Yaellario4@gmail.com">Yaellario4@gmail.com</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-item mb-4">
+            <div class="contact-icon">
+              <i class="ti-mobile"></i>
+            </div>
+            <div class="contact-text">
+              <h5>Teléfono</h5>
+              <p><a href="tel:3311045678">3311045678</a></p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="ti-linkedin"></i>
+            </div>
+            <div class="contact-text">
+              <h5>LinkedIn</h5>
+              <p><a href="https://www.linkedin.com/in/yaelmls/" target="_blank">linkedin.com/in/yaelmls/</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-7">
+        <div class="contact-form animated-element">
+          <form id="contact-form" action="https://formspree.io/f/xpzgkrwb" method="POST">
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <input type="text" class="form-control" name="name" placeholder="Tu Nombre" required>
+              </div>
+              <div class="col-md-6 mb-4">
+                <input type="email" class="form-control" name="email" placeholder="Tu Email" required>
+              </div>
+              <div class="col-12 mb-4">
+                <input type="text" class="form-control" name="subject" placeholder="Asunto" required>
+              </div>
+              <div class="col-12 mb-4">
+                <textarea class="form-control" name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<a href="#" class="back-to-top">
+  <i class="ti-arrow-up"></i>
+</a>
+
+
+  </main>
+  
+  
+  <footer class="footer-creativo">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <h3 class="footer-heading">Yael Moises Larios Sepulveda</h3>
+          <p>Productor con experiencia en desarrollo de videojuegos, animación y medios de entretenimiento.</p>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="footer-heading">Contacto</h3>
+          <ul class="footer-links">
+            <li><a href="mailto:Yaellario4@gmail.com"><i class="ti-email"></i> Yaellario4@gmail.com</a></li>
+            <li><a href="tel:3311045678"><i class="ti-mobile"></i> 3311045678</a></li>
+            <li><a href="https://www.linkedin.com/in/yaelmls/" target="_blank"><i class="ti-linkedin"></i> linkedin.com/in/yaelmls/</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h3 class="footer-heading">Redes Sociales</h3>
+          <ul class="social-icons">
+            <li><a href="https://www.linkedin.com/in/yaelmls/" target="_blank"><i class="ti-linkedin"></i></a></li>
+            <li><a href="https://instagram.com/yaelmls" target="_blank"><i class="ti-instagram"></i></a></li>
+            <li><a href="https://github.com/yaelmls" target="_blank"><i class="ti-github"></i></a></li>
+            <li><a href="https://twitter.com/yaelmls" target="_blank"><i class="ti-twitter"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="copyright">© 2025 Yael Moises Larios Sepulveda. Todos los derechos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+
+<script>
+  
+  var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 800,
+    speedAsDuration: true,
+    offset: 100
+  });
+  
+  
+  $(window).on('load', function() {
+    if ($('.portfolio-container').length > 0) {
+      var $grid = $('.portfolio-container').isotope({
+        itemSelector: '.portfolio-item',
+        layoutMode: 'fitRows'
+      });
+      
+      
+      $('.portfolio-filter li').on('click', function() {
+        $('.portfolio-filter li').removeClass('active');
+        $(this).addClass('active');
+        
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+      });
+    }
+  });
+  
+  
+  if ($('.typed-text').length > 0) {
+    var typed = new Typed('.typed-text', {
+      strings: ["Desarrollo de Videojuegos", "Animación", "Producción", "Diseño Creativo"],
+      typeSpeed: 80,
+      backSpeed: 40,
+      backDelay: 1500,
+      loop: true
+    });
+  }
+  
+  
+  $('.counter').each(function() {
+    var $this = $(this);
+    var countTo = $this.attr('data-count');
+    
+    $({ countNum: 0 }).animate({
+      countNum: countTo
+    }, {
+      duration: 2000,
+      easing: 'linear',
+      step: function() {
+        $this.text(Math.floor(this.countNum));
+      },
+      complete: function() {
+        $this.text(this.countNum);
+      }
+    });
+  });
+  
+  
+  $('.skill-bar').waypoint(function() {
+    $('.progress-bar').each(function() {
+      var width = $(this).data('percent');
+      $(this).css('width', width);
+    });
+  }, { offset: '80%' });
+  
+  
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+      $('.back-to-top').fadeIn();
+    } else {
+      $('.back-to-top').fadeOut();
+    }
+  });
+  
+  $('.back-to-top').click(function() {
+    $('html, body').animate({ scrollTop: 0 }, 800);
+    return false;
+  });
+</script>
+  
+  
+  <script>
+    
+    $(window).on('load', function() {
+      $('.preloader').fadeOut(500);
+    });
+    
+    
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 50) {
+        $(".header-animado").addClass("scrolled");
+      } else {
+        $(".header-animado").removeClass("scrolled");
+      }
+    });
+    
+    
+    $(document).ready(function() {
+      $('.animated-element').each(function() {
+        var element = $(this);
+        element.waypoint(function() {
+          element.addClass('animated fadeInUp');
+        }, {offset: '80%'});
+      });
+    });
+  </script>
+</body>
+</html>

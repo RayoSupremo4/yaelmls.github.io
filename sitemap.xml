@@ -1,95 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>https://demo.gethugothemes.com/kross/site/</loc>
-    <lastmod>2023-11-30T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/animaci%C3%B3n/</loc>
-    <lastmod>2023-11-30T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/</loc>
-    <lastmod>2023-11-30T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-1/</loc>
-    <lastmod>2023-11-30T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/</loc>
-    <lastmod>2023-11-30T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/producci%C3%B3n/</loc>
-    <lastmod>2023-11-30T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-3/</loc>
-    <lastmod>2023-02-01T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/cgi/</loc>
-    <lastmod>2023-02-01T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/publicidad/</loc>
-    <lastmod>2023-02-01T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/direcci%C3%B3n/</loc>
-    <lastmod>2022-11-01T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-2/</loc>
-    <lastmod>2022-11-01T12:00:00+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/blog/post-1/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/blog/post-2/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/blog/post-3/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/blog/post-4/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/blog/post-5/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/blog/post-6/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-4/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-5/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-6/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-7/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-8/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/portfolio/project-9/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/blog/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/branding/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/design/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/development/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/categories/illustration/</loc>
-    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/contact/</loc>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/about/</loc>
-  </url><url>
-    <loc>https://demo.gethugothemes.com/kross/site/tags/</loc>
-  </url>
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>/en/sitemap.xml</loc>
+    
+      <lastmod>2023-11-30T12:00:00+06:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>/es/sitemap.xml</loc>
+    
+      <lastmod>2023-11-30T12:00:00+06:00</lastmod>
+    
+  </sitemap>
+  
+</sitemapindex>

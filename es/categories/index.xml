@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Yael Larios</title>
+    <link>/es/categories/</link>
+    <description>Recent content in Categories on Yael Larios</description>
+    <generator>Hugo</generator>
+    <language>es-mx</language>
+    <managingEditor>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</managingEditor>
+    <webMaster>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</webMaster>
+    <lastBuildDate>Thu, 30 Nov 2023 12:00:00 +0600</lastBuildDate>
+    <atom:link href="/es/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Animación</title>
+      <link>/es/categories/animaci%C3%B3n/</link>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/animaci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Producción</title>
+      <link>/es/categories/producci%C3%B3n/</link>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/producci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CGI</title>
+      <link>/es/categories/cgi/</link>
+      <pubDate>Wed, 01 Feb 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/cgi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Publicidad</title>
+      <link>/es/categories/publicidad/</link>
+      <pubDate>Wed, 01 Feb 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/publicidad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dirección</title>
+      <link>/es/categories/direcci%C3%B3n/</link>
+      <pubDate>Tue, 01 Nov 2022 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/direcci%C3%B3n/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Branding</title>
+      <link>/es/categories/branding/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/branding/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Design</title>
+      <link>/es/categories/design/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Development</title>
+      <link>/es/categories/development/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Illustration</title>
+      <link>/es/categories/illustration/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/es/categories/illustration/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

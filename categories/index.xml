@@ -2,73 +2,75 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yael Larios</title>
-    <link>https://demo.gethugothemes.com/kross/site/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Yael Larios</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <managingEditor>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</managingEditor>
+    <webMaster>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</webMaster>
     <lastBuildDate>Thu, 30 Nov 2023 12:00:00 +0600</lastBuildDate>
-    <atom:link href="https://demo.gethugothemes.com/kross/site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Animación</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/animaci%C3%B3n/</link>
-      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/animaci%C3%B3n/</guid>
+      <link>/categories/animaci%C3%B3n/</link>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/animaci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Producción</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/producci%C3%B3n/</link>
-      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/producci%C3%B3n/</guid>
+      <link>/categories/producci%C3%B3n/</link>
+      <pubDate>Thu, 30 Nov 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/producci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>CGI</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/cgi/</link>
-      <pubDate>Wed, 01 Feb 2023 12:00:00 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/cgi/</guid>
+      <link>/categories/cgi/</link>
+      <pubDate>Wed, 01 Feb 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/cgi/</guid>
       <description></description>
     </item>
     <item>
       <title>Publicidad</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/publicidad/</link>
-      <pubDate>Wed, 01 Feb 2023 12:00:00 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/publicidad/</guid>
+      <link>/categories/publicidad/</link>
+      <pubDate>Wed, 01 Feb 2023 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/publicidad/</guid>
       <description></description>
     </item>
     <item>
       <title>Dirección</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/direcci%C3%B3n/</link>
-      <pubDate>Tue, 01 Nov 2022 12:00:00 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/direcci%C3%B3n/</guid>
+      <link>/categories/direcci%C3%B3n/</link>
+      <pubDate>Tue, 01 Nov 2022 12:00:00 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/direcci%C3%B3n/</guid>
       <description></description>
     </item>
     <item>
       <title>Branding</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/branding/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/branding/</guid>
+      <link>/categories/branding/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/branding/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/design/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/design/</guid>
+      <link>/categories/design/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/design/</guid>
       <description></description>
     </item>
     <item>
       <title>Development</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/development/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/development/</guid>
+      <link>/categories/development/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Illustration</title>
-      <link>https://demo.gethugothemes.com/kross/site/categories/illustration/</link>
-      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate>
-      <guid>https://demo.gethugothemes.com/kross/site/categories/illustration/</guid>
+      <link>/categories/illustration/</link>
+      <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/categories/illustration/</guid>
       <description></description>
     </item>
   </channel>
