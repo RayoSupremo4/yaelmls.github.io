@@ -29,8 +29,33 @@
 
 <style>
    
+  #theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+  }
+  
+  #theme-toggle:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+   
   .animacion-fondo {
-    background: linear-gradient(-45deg, #3498db, #2ecc71, #f39c12, #e74c3c);
+    background: linear-gradient(-45deg, var(--primary-color), var(--secondary-color), var(--accent-color), var(--danger-color));
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
   }
@@ -274,6 +299,37 @@
     color: white;
   }
 </style>
+
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    const themeToggle = document.createElement('button');
+    themeToggle.id = 'theme-toggle';
+    themeToggle.innerHTML = '<i class="ti-light-bulb"></i>';
+    document.body.appendChild(themeToggle);
+    
+    
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      document.body.classList.add('dark-theme');
+      themeToggle.innerHTML = '<i class="ti-shine"></i>';
+    }
+    
+    
+    themeToggle.addEventListener('click', function() {
+      document.body.classList.toggle('dark-theme');
+      
+      if (document.body.classList.contains('dark-theme')) {
+        localStorage.setItem('theme', 'dark');
+        themeToggle.innerHTML = '<i class="ti-shine"></i>';
+      } else {
+        localStorage.setItem('theme', 'light');
+        themeToggle.innerHTML = '<i class="ti-light-bulb"></i>';
+      }
+    });
+  });
+</script>
   
   
   

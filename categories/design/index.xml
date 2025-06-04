@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on Yael Larios</title>
-    <link>/categories/design/</link>
+    <link>//localhost:1313/categories/design/</link>
     <description>Recent content in Design on Yael Larios</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <managingEditor>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</managingEditor>
     <webMaster>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</webMaster>
     <lastBuildDate>Sun, 12 May 2019 12:14:34 +0600</lastBuildDate>
-    <atom:link href="/categories/design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Artwork Design</title>
-      <link>/portfolio/project-4/</link>
+      <link>//localhost:1313/portfolio/project-4/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
-      <guid>/portfolio/project-4/</guid>
+      <guid>//localhost:1313/portfolio/project-4/</guid>
       <description>&lt;h4 id=&#34;project-requirements&#34;&gt;Project Requirements&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip&#xA;ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu&#xA;fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt&#xA;mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Artwork Design</title>
-      <link>/portfolio/project-6/</link>
+      <link>//localhost:1313/portfolio/project-6/</link>
       <pubDate>Sun, 12 May 2019 12:14:34 +0600</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
-      <guid>/portfolio/project-6/</guid>
+      <guid>//localhost:1313/portfolio/project-6/</guid>
       <description>&lt;h4 id=&#34;project-requirements&#34;&gt;Project Requirements&lt;/h4&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore&#xA;et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip&#xA;ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu&#xA;fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt&#xA;mollit anim id est laborum.&lt;/p&gt;</description>
     </item>
   </channel>
