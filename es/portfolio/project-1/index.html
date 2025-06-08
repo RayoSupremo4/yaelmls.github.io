@@ -336,6 +336,10 @@
 
 <link rel="stylesheet" href="/scss/custom.min.css">
 
+  
+  
+  <meta name="theme-color" content="#3498db">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 
 <body class="animacion-fondo">
@@ -372,6 +376,11 @@
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="/contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="ti-moon"></i>
+              </button>
             </li>
           </ul>
         </div>
@@ -529,12 +538,12 @@
         
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="portfolio-wrap">
-            <img src="/images/portfolio/item-3.png" alt="Asistente de Producción en Ploop" class="img-fluid">
+            <img src="/images/portfolio/item-2.png" alt="Dirección de Animación en STUDIO4" class="img-fluid">
             <div class="portfolio-overlay">
               <div class="portfolio-content">
-                <h4>Asistente de Producción en Ploop</h4>
-                <p>producción, CGI, publicidad</p>
-                <a href="/es/portfolio/project-3/" class="portfolio-link">Ver Detalles</a>
+                <h4>Dirección de Animación en STUDIO4</h4>
+                <p>animación, dirección</p>
+                <a href="/es/portfolio/project-2/" class="portfolio-link">Ver Detalles</a>
               </div>
             </div>
           </div>
@@ -546,12 +555,12 @@
         
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="portfolio-wrap">
-            <img src="/images/portfolio/item-2.png" alt="Dirección de Animación en STUDIO4" class="img-fluid">
+            <img src="/images/portfolio/item-3.png" alt="Asistente de Producción en Ploop" class="img-fluid">
             <div class="portfolio-overlay">
               <div class="portfolio-content">
-                <h4>Dirección de Animación en STUDIO4</h4>
-                <p>animación, dirección</p>
-                <a href="/es/portfolio/project-2/" class="portfolio-link">Ver Detalles</a>
+                <h4>Asistente de Producción en Ploop</h4>
+                <p>producción, CGI, publicidad</p>
+                <a href="/es/portfolio/project-3/" class="portfolio-link">Ver Detalles</a>
               </div>
             </div>
           </div>
@@ -706,6 +715,9 @@
 </script>
   
   
+  <script src="/js/theme.js"></script>
+  
+  
   <script>
     
     $(window).on('load', function() {
@@ -720,16 +732,6 @@
       } else {
         $(".header-animado").removeClass("scrolled");
       }
-    });
-    
-    
-    $(document).ready(function() {
-      $('.animated-element').each(function() {
-        var element = $(this);
-        element.waypoint(function() {
-          element.addClass('animated fadeInUp');
-        }, {offset: '80%'});
-      });
     });
   </script>
 </body>

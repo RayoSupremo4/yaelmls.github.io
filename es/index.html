@@ -337,6 +337,10 @@
 
 <link rel="stylesheet" href="/scss/custom.min.css">
 
+  
+  
+  <meta name="theme-color" content="#3498db">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 
 <body class="animacion-fondo">
@@ -374,6 +378,11 @@
             <li class="nav-item ">
               <a class="nav-link" href="/contact">Contacto</a>
             </li>
+            <li class="nav-item">
+              <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="ti-moon"></i>
+              </button>
+            </li>
           </ul>
         </div>
       </nav>
@@ -405,7 +414,7 @@
       <div class="col-lg-6">
         <div class="hero-image animated-element">
           <div class="hero-shape"></div>
-          <img src="images/illustrations/hero-illustration.svg" alt="Ilustración de Yael" class="img-fluid">
+          <img src="/images/Yael Larios.JPG" alt="Foto de Yael Larios" class="img-fluid rounded shadow-lg">
         </div>
       </div>
     </div>
@@ -427,7 +436,7 @@
     <div class="row align-items-center">
       <div class="col-lg-5 mb-4 mb-lg-0">
         <div class="about-image animated-element">
-          <img src="Yael Larios.JPG" alt="Yael Moises Larios Sepulveda" class="img-fluid rounded shadow-lg">
+          <img src="/Yael Larios.JPG" alt="Yael Moises Larios Sepulveda" class="img-fluid rounded shadow-lg">
           <div class="floating-shape"></div>
         </div>
       </div>
@@ -606,45 +615,60 @@
       </div>
     </div>
     
-    <div class="timeline animated-element">
+    <div class="row">
       
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-header">
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="experience-card animated-element">
+          <div class="experience-icon">
+            <i class="ti-palette"></i>
+          </div>
+          <div class="experience-content">
             <h4>Asistente de producción en Ploop</h4>
-            <span class="timeline-date">Febrero 2023 - Actualidad</span>
-          </div>
-          <div class="timeline-body">
-            <p>Estudio especializado en CGI para publicidad</p>
+            <span class="experience-date">Febrero 2023 - Actualidad</span>
+            <p>Estudio especializado en CGI para publicidad. Colaboración en proyectos de animación y efectos visuales para marcas reconocidas.</p>
+            <div class="experience-tags">
+              <span>CGI</span>
+              <span>Producción</span>
+              <span>Publicidad</span>
+            </div>
           </div>
         </div>
       </div>
       
       
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-header">
-            <h4>Productor Cortometraje de Stop Motion "Sabor a mí"</h4>
-            <span class="timeline-date">Agosto-Noviembre 2023</span>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="experience-card animated-element">
+          <div class="experience-icon">
+            <i class="ti-video-camera"></i>
           </div>
-          <div class="timeline-body">
+          <div class="experience-content">
+            <h4>Productor Cortometraje "Sabor a mí"</h4>
+            <span class="experience-date">Agosto-Noviembre 2023</span>
             <p>Cortometraje de animación stop motion de una pareja que expresa su amor cocinándose a sí mismos para el otro.</p>
+            <div class="experience-tags">
+              <span>Stop Motion</span>
+              <span>Dirección</span>
+              <span>Producción</span>
+            </div>
           </div>
         </div>
       </div>
       
       
-      <div class="timeline-item">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <div class="timeline-header">
-            <h4>Director de Animación STUDIO4</h4>
-            <span class="timeline-date">Noviembre 2022-2024</span>
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="experience-card animated-element">
+          <div class="experience-icon">
+            <i class="ti-pencil-alt"></i>
           </div>
-          <div class="timeline-body">
-            <p>Plataforma donde las personas pueden buscar y encontrar escuelas.</p>
+          <div class="experience-content">
+            <h4>Director de Animación STUDIO4</h4>
+            <span class="experience-date">Noviembre 2022-2024</span>
+            <p>Plataforma donde las personas pueden buscar y encontrar escuelas. Desarrollo de contenido animado para mejorar la experiencia educativa.</p>
+            <div class="experience-tags">
+              <span>Animación</span>
+              <span>Dirección</span>
+              <span>Educación</span>
+            </div>
           </div>
         </div>
       </div>
@@ -697,7 +721,7 @@
       
       <div class="col-lg-4 col-md-6 mb-4 portfolio-item animacion">
         <div class="portfolio-wrap">
-          <img src="images/portfolio/item-1.png" alt="Cortometraje Sabor a mí" class="img-fluid">
+          <img src="/images/portfolio/item-1.png" alt="Cortometraje Sabor a mí" class="img-fluid">
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Cortometraje "Sabor a mí"</h4>
@@ -711,7 +735,7 @@
       
       <div class="col-lg-4 col-md-6 mb-4 portfolio-item produccion">
         <div class="portfolio-wrap">
-          <img src="images/portfolio/item-2.png" alt="Producción en Ploop" class="img-fluid">
+          <img src="/images/portfolio/item-2.png" alt="Producción en Ploop" class="img-fluid">
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Producción en Ploop</h4>
@@ -725,7 +749,7 @@
       
       <div class="col-lg-4 col-md-6 mb-4 portfolio-item videojuegos">
         <div class="portfolio-wrap">
-          <img src="images/portfolio/item-3.png" alt="Desarrollo de Videojuegos" class="img-fluid">
+          <img src="/images/portfolio/item-3.png" alt="Desarrollo de Videojuegos" class="img-fluid">
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Desarrollo de Videojuegos</h4>
@@ -809,7 +833,7 @@
             </div>
             <div class="contact-text">
               <h5>Email</h5>
-              <p><a href="mailto:Yaellario4@gmail.com">Yaellario4@gmail.com</a></p>
+              <p><a href="mailto:hello@yaelmls.com">hello@yaelmls.com</a></p>
             </div>
           </div>
           
@@ -819,7 +843,7 @@
             </div>
             <div class="contact-text">
               <h5>Teléfono</h5>
-              <p><a href="tel:3311045678">3311045678</a></p>
+              <p><a href="tel:+523311045678">+523311045678</a></p>
             </div>
           </div>
           
@@ -1005,6 +1029,9 @@
 </script>
   
   
+  <script src="/js/theme.js"></script>
+  
+  
   <script>
     
     $(window).on('load', function() {
@@ -1019,16 +1046,6 @@
       } else {
         $(".header-animado").removeClass("scrolled");
       }
-    });
-    
-    
-    $(document).ready(function() {
-      $('.animated-element').each(function() {
-        var element = $(this);
-        element.waypoint(function() {
-          element.addClass('animated fadeInUp');
-        }, {offset: '80%'});
-      });
     });
   </script>
 </body>

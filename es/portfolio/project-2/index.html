@@ -336,6 +336,10 @@
 
 <link rel="stylesheet" href="/scss/custom.min.css">
 
+  
+  
+  <meta name="theme-color" content="#3498db">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 </head>
 
 <body class="animacion-fondo">
@@ -372,6 +376,11 @@
             </li>
             <li class="nav-item ">
               <a class="nav-link" href="/contact">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <button id="theme-toggle" aria-label="Cambiar tema">
+                <i class="ti-moon"></i>
+              </button>
             </li>
           </ul>
         </div>
@@ -527,8 +536,6 @@
         
         
         
-        
-        
         <div class="col-lg-4 col-md-6 mb-4">
           <div class="portfolio-wrap">
             <img src="/images/portfolio/item-1.png" alt="Cortometraje Stop Motion &#39;Sabor a mí&#39;" class="img-fluid">
@@ -541,6 +548,8 @@
             </div>
           </div>
         </div>
+        
+        
         
         
       </div>
@@ -691,6 +700,9 @@
 </script>
   
   
+  <script src="/js/theme.js"></script>
+  
+  
   <script>
     
     $(window).on('load', function() {
@@ -705,16 +717,6 @@
       } else {
         $(".header-animado").removeClass("scrolled");
       }
-    });
-    
-    
-    $(document).ready(function() {
-      $('.animated-element').each(function() {
-        var element = $(this);
-        element.waypoint(function() {
-          element.addClass('animated fadeInUp');
-        }, {offset: '80%'});
-      });
     });
   </script>
 </body>
