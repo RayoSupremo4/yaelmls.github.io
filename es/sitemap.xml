@@ -169,6 +169,18 @@
                 href="/es/contact/"
                 />
   </url><url>
+    <loc>/gracias/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/gracias/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-mx"
+                href="/gracias/"
+                />
+  </url><url>
     <loc>/es/about/</loc>
     <xhtml:link
                 rel="alternate"

@@ -39,6 +39,13 @@
       <description>&lt;h2 id=&#34;hablemos&#34;&gt;Hablemos&lt;/h2&gt;&#xA;&lt;p&gt;¿Tienes un proyecto interesante en mente? ¿Buscas un productor con experiencia en animación, videojuegos o contenido educativo? Estoy aquí para ayudarte a llevar tus ideas a la realidad.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Gracias</title>
+      <link>/gracias/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
+      <guid>/gracias/</guid>
+      <description>&lt;section class=&#34;section text-center&#34;&gt;&#xD;&#xA;  &lt;div class=&#34;container&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;row justify-content-center&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;col-lg-8&#34;&gt;&#xD;&#xA;&lt;pre&gt;&lt;code&gt;    &amp;lt;h2 class=&amp;quot;mb-4&amp;quot;&amp;gt;¡Gracias por tu mensaje!&amp;lt;/h2&amp;gt;&#xD;&#xA;    &amp;lt;p class=&amp;quot;lead mb-4&amp;quot;&amp;gt;&#xD;&#xA;      He recibido tu mensaje y te responderé lo antes posible.&#xD;&#xA;    &amp;lt;/p&amp;gt;&#xD;&#xA;    &amp;lt;a href=&amp;quot;/&amp;quot; class=&amp;quot;btn btn-primary&amp;quot;&amp;gt;Volver al inicio&amp;lt;/a&amp;gt;&#xD;&#xA;&#xD;&#xA;  &amp;lt;/div&amp;gt;&#xD;&#xA;&amp;lt;/div&amp;gt;&#xD;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/section&gt;</description>
+    </item>
+    <item>
       <title>Sobre Mí</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>Yaellario4@gmail.com (Yael Moises Larios Sepulveda)</author>
