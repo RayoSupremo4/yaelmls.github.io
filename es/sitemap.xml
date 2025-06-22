@@ -54,7 +54,7 @@
                 href="/es/portfolio/project-1/"
                 />
   </url><url>
-    <loc>/es/portfolio/</loc>
+    <loc>/portfolio/</loc>
     <lastmod>2023-11-30T12:00:00+06:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -64,7 +64,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es-mx"
-                href="/es/portfolio/"
+                href="/portfolio/"
                 />
   </url><url>
     <loc>/es/categories/producci%C3%B3n/</loc>

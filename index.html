@@ -49,7 +49,33 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
   }
-  
+  #preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #0f172a;  
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: opacity 0.5s ease;
+  }
+
+.loader-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38bdf8;
+  animation: colorChange 2s infinite alternate;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+@keyframes colorChange {
+  0% { color: #38bdf8; }
+  50% { color: #a855f7; }
+  100% { color: #facc15; }
+}
+
   #theme-toggle:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -332,6 +358,32 @@
     });
   });
 </script>
+
+  <style>
+    #preloader {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: #0f172a;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease;
+    }
+    .loader-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #38bdf8;
+      animation: colorChange 2s infinite alternate;
+      font-family: 'Montserrat', sans-serif;
+    }
+    @keyframes colorChange {
+      0% { color: #38bdf8; }
+      50% { color: #a855f7; }
+      100% { color: #facc15; }
+    }
+  </style>
   
   
   
@@ -346,12 +398,10 @@
 
 <body class="animacion-fondo">
   
-  <div class="preloader">
-    <div class="loader">
-      <div class="loader-inner"></div>
-    </div>
+  <div id="preloader">
+    <div class="loader-text">Productor Audiovisual</div>
   </div>
-  
+
   
   <header class="header-animado">
     <div class="container">
@@ -786,7 +836,7 @@
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Sabor a mí</h4>
-              <p>Cortometraje de animación stop motion de una pareja que expresa su amor cocinándose a si mismos.</p>
+              <p>Cortometraje de animación stop motion de una pareja que expresa su amor cocinándose a sí mismos.</p>
               <a href="portfolio/project-1" class="portfolio-link">Ver Detalles</a>
             </div>
           </div>
@@ -799,7 +849,7 @@
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Tatei</h4>
-              <p>Experiencia de hablar con una piedra enojada por la contaminacion.</p>
+              <p>Experiencia de hablar con una piedra enojada por la contaminación.</p>
               <a href="portfolio/project-4" class="portfolio-link">Ver Detalles</a>
             </div>
           </div>
@@ -819,52 +869,52 @@
         </div>
       </div>
       
-      <div class="col-lg-4 col-md-6 mb-4 portfolio-item ">
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item experiencia">
         <div class="portfolio-wrap">
           <img src="/images/portfolio/item-6.png" alt="Jaula" class="img-fluid">
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Jaula</h4>
-              <p>Expriencia inmersiva.</p>
+              <p>Experiencia inmersiva.</p>
               <a href="portfolio/project-6" class="portfolio-link">Ver Detalles</a>
             </div>
           </div>
         </div>
       </div>
       
-      <div class="col-lg-4 col-md-6 mb-4 portfolio-item ">
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item ilustracion">
         <div class="portfolio-wrap">
           <img src="/images/portfolio/Robin.png" alt="Robin" class="img-fluid">
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Robin</h4>
-              <p>Ilustracion para campaña de.</p>
+              <p>Ilustración para campaña de concientización.</p>
               <a href="portfolio/project-7" class="portfolio-link">Ver Detalles</a>
             </div>
           </div>
         </div>
       </div>
       
-      <div class="col-lg-4 col-md-6 mb-4 portfolio-item ">
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item postproduccion">
         <div class="portfolio-wrap">
-          <img src="/images/portfolio/Melodia%20Bucanera.png" alt="Melodia bucanera" class="img-fluid">
+          <img src="/images/portfolio/Melodia%20Bucanera.png" alt="Melodía Bucanera" class="img-fluid">
           <div class="portfolio-overlay">
             <div class="portfolio-content">
-              <h4>Melodia bucanera</h4>
-              <p>Cortometraje animado que busca enseñar que nunca es tarde para encontrar tu proposito</p>
+              <h4>Melodía Bucanera</h4>
+              <p>Cortometraje animado que enseña que nunca es tarde para encontrar tu propósito.</p>
               <a href="portfolio/project-8" class="portfolio-link">Ver Detalles</a>
             </div>
           </div>
         </div>
       </div>
       
-      <div class="col-lg-4 col-md-6 mb-4 portfolio-item Direccion, Guion">
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item direccion guion">
         <div class="portfolio-wrap">
           <img src="/images/portfolio/Dilo-Sin-Palabras.png" alt="Dilo sin Palabras" class="img-fluid">
           <div class="portfolio-overlay">
             <div class="portfolio-content">
               <h4>Dilo sin Palabras</h4>
-              <p>Cortometraje de una persona que aprende a expresarse sin poder hablar</p>
+              <p>Cortometraje sobre una persona que aprende a expresarse sin hablar.</p>
               <a href="portfolio/project-9" class="portfolio-link">Ver Detalles</a>
             </div>
           </div>
@@ -1033,9 +1083,8 @@
           <h3 class="footer-heading">Redes Sociales</h3>
           <ul class="social-icons">
             <li><a href="https://www.linkedin.com/in/yaelmls/" target="_blank"><i class="ti-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/yael_larios4?igsh=MTBhYW44MWdpMnk2Mw==" target="_blank"><i class="ti-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/yael_larios4" target="_blank"><i class="ti-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/share/1EaqCzRxNu/" target="_blank"><i class="ti-facebook"></i></a></li>
-          
           </ul>
         </div>
       </div>
@@ -1146,18 +1195,16 @@
     return false;
   });
 </script>
-  
-  
   <script src="/js/theme.js"></script>
-  
+
   
   <script>
-    
-    $(window).on('load', function() {
-      $('.preloader').fadeOut(500);
+    window.addEventListener("load", function () {
+      const preloader = document.getElementById("preloader");
+      preloader.style.opacity = 0;
+      setTimeout(() => preloader.style.display = "none", 500);
     });
-    
-    
+
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll > 50) {

@@ -48,7 +48,33 @@
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease;
   }
-  
+  #preloader {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #0f172a;  
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: opacity 0.5s ease;
+  }
+
+.loader-text {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #38bdf8;
+  animation: colorChange 2s infinite alternate;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+@keyframes colorChange {
+  0% { color: #38bdf8; }
+  50% { color: #a855f7; }
+  100% { color: #facc15; }
+}
+
   #theme-toggle:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
@@ -331,6 +357,32 @@
     });
   });
 </script>
+
+  <style>
+    #preloader {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      background-color: #0f172a;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: opacity 0.5s ease;
+    }
+    .loader-text {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #38bdf8;
+      animation: colorChange 2s infinite alternate;
+      font-family: 'Montserrat', sans-serif;
+    }
+    @keyframes colorChange {
+      0% { color: #38bdf8; }
+      50% { color: #a855f7; }
+      100% { color: #facc15; }
+    }
+  </style>
   
   
   
@@ -345,12 +397,10 @@
 
 <body class="animacion-fondo">
   
-  <div class="preloader">
-    <div class="loader">
-      <div class="loader-inner"></div>
-    </div>
+  <div id="preloader">
+    <div class="loader-text">Productor Audiovisual</div>
   </div>
-  
+
   
   <header class="header-animado">
     <div class="container">
@@ -392,177 +442,124 @@
   
   <main>
     
-
-
-<section class="page-header">
+<section class="portfolio-section section bg-light" id="portfolio">
   <div class="container">
     <div class="row">
+      <div class="col-12">
+        <div class="section-title text-center mb-5 animated-element">
+          <h2>Portafolio</h2>
+          <div class="divider mx-auto"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-4">
       <div class="col-12 text-center">
-        <h1 class="mb-3">Dirección de Animación en STUDIO4</h1>
-        <div class="divider mx-auto mb-4"></div>
-        <p class="lead">Dirección del departamento de animación para una plataforma educativa que ayuda a las personas a encontrar escuelas.</p>
+        <ul class="portfolio-filter list-inline">
+          <li class="list-inline-item active" data-filter="*">Todos</li>
+          <li class="list-inline-item" data-filter=".animacion">Animación</li>
+          <li class="list-inline-item" data-filter=".produccion">Producción</li>
+          <li class="list-inline-item" data-filter=".videojuegos">Videojuegos</li>
+        </ul>
       </div>
     </div>
-  </div>
-  <div class="page-header-wave">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-      <path fill="#ffffff" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,128C384,128,480,160,576,186.7C672,213,768,235,864,224C960,213,1056,171,1152,149.3C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-    </svg>
-  </div>
-</section>
 
-
-<section class="project-details section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 mb-5 mb-lg-0">
-        <div class="project-images mb-5">
-          <div class="project-main-image mb-4">
-            <img src="/images/portfolio/item-2.png" alt="Dirección de Animación en STUDIO4" class="img-fluid rounded shadow">
+    <div class="row portfolio-container">
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item animacion produccion postproduccion">
+        <div class="portfolio-wrap">
+          <img src="/images/portfolio/Sabor-A-Mi.png" alt="Sabor a mí" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Sabor a mí</h4>
+              <p>Cortometraje de animación stop motion de una pareja que expresa su amor cocinándose a sí mismos.</p>
+              <a href="portfolio/project-1" class="portfolio-link">Ver Detalles</a>
+            </div>
           </div>
-          
-          
-        </div>
-        
-        <div class="project-content">
-          <h3 class="mb-4">Descripción del Proyecto</h3>
-          <div class="content">
-            <h4 id="descripción-del-proyecto">Descripción del Proyecto</h4>
-<p>Como Director de Animación en STUDIO4, lideré el desarrollo de contenido animado para una plataforma educativa innovadora diseñada para ayudar a las personas a encontrar escuelas adecuadas a sus necesidades. El proyecto requería la creación de animaciones atractivas y educativas que explicaran el funcionamiento de la plataforma y presentaran las diferentes opciones educativas de manera clara y accesible.</p>
-<h4 id="objetivos-del-proyecto">Objetivos del Proyecto</h4>
-<ul>
-<li>Desarrollar un estilo visual coherente y atractivo para todas las animaciones</li>
-<li>Coordinar un equipo de animadores trabajando 30 horas semanales</li>
-<li>Implementar metodologías ágiles como SCRUM para optimizar los flujos de trabajo</li>
-<li>Crear contenido educativo que fuera tanto informativo como entretenido</li>
-<li>Establecer un sistema de producción escalable para manejar múltiples proyectos simultáneamente</li>
-<li>Asegurar la entrega puntual de todos los materiales animados</li>
-</ul>
-<h4 id="solución-implementada">Solución Implementada</h4>
-<p>Implementé un sistema de producción basado en SCRUM, con sprints de dos semanas y reuniones diarias para monitorear el progreso. Desarrollé roadmaps detallados y cronogramas para cada proyecto, asegurando que todos los miembros del equipo tuvieran claridad sobre sus responsabilidades y plazos.</p>
-<p>Creé mapas visuales y diagramas para facilitar la comunicación entre los diferentes departamentos, lo que resultó en una colaboración más fluida entre animadores, guionistas y desarrolladores. Utilicé herramientas como Tópico, Juncas y Vision para la gestión de proyectos y el seguimiento del progreso.</p>
-<p>Establecí un proceso de revisión riguroso para garantizar la calidad y coherencia de todas las animaciones, implementando puntos de control en diferentes etapas de la producción: concepto, storyboard, animatic, animación y post-producción.</p>
-<h4 id="resultados">Resultados</h4>
-<p>Bajo mi dirección, el departamento de animación logró resultados significativos:</p>
-<ul>
-<li>Producción de más de 50 piezas animadas en un período de 18 meses</li>
-<li>Reducción del 35% en los tiempos de producción gracias a la implementación de metodologías ágiles</li>
-<li>Aumento del 40% en la satisfacción de los usuarios con el contenido educativo</li>
-<li>Desarrollo de un estilo visual distintivo que se convirtió en parte integral de la identidad de marca</li>
-<li>Formación de un equipo cohesionado y altamente productivo</li>
-</ul>
-<p>El éxito de este proyecto demostró mi capacidad para liderar equipos creativos, implementar procesos eficientes y entregar contenido de alta calidad que cumple con los objetivos educativos y de marca.</p>
-
-          </div>
-          
-          
-          
-          
-          
-          
         </div>
       </div>
       
-      <div class="col-lg-4">
-        <div class="project-sidebar">
-          <div class="project-info-card mb-4">
-            <h4 class="card-title">Información del Proyecto</h4>
-            <div class="divider mb-4"></div>
-            
-            <div class="info-item">
-              <h5>Cliente</h5>
-              <p>STUDIO4</p>
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item produccion experiencia IA">
+        <div class="portfolio-wrap">
+          <img src="/images/portfolio/item-4.png" alt="Tatei" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Tatei</h4>
+              <p>Experiencia de hablar con una piedra enojada por la contaminación.</p>
+              <a href="portfolio/project-4" class="portfolio-link">Ver Detalles</a>
             </div>
-            
-            <div class="info-item">
-              <h5>Fecha</h5>
-              <p>November 2022</p>
-            </div>
-            
-            
-            <div class="info-item">
-              <h5>URL del Proyecto</h5>
-              <p><a href="#" target="_blank">#</a></p>
-            </div>
-            
-            
-            <div class="info-item">
-              <h5>Categorías</h5>
-              <div class="categories">
-                
-                <span class="badge badge-primary">animación</span>
-                
-                <span class="badge badge-primary">dirección</span>
-                
-              </div>
-            </div>
-          </div>
-          
-          <div class="project-share-card">
-            <h4 class="card-title">Compartir Proyecto</h4>
-            <div class="divider mb-4"></div>
-            
-            <ul class="social-share">
-              <li>
-                <a href="https://www.facebook.com/sharer/sharer.php?u=%2fportfolio%2fproject-2%2f" target="_blank">
-                  <i class="ti-facebook"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/intent/tweet?url=%2fportfolio%2fproject-2%2f&text=Direcci%c3%b3n%20de%20Animaci%c3%b3n%20en%20STUDIO4" target="_blank">
-                  <i class="ti-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2fportfolio%2fproject-2%2f&title=Direcci%c3%b3n%20de%20Animaci%c3%b3n%20en%20STUDIO4" target="_blank">
-                  <i class="ti-linkedin"></i>
-                </a>
-              </li>
-              <li>
-                <a href="https://pinterest.com/pin/create/button/?url=%2fportfolio%2fproject-2%2f&media=%2fimages%2fportfolio%2fitem-2.png&description=Direcci%c3%b3n%20de%20Animaci%c3%b3n%20en%20STUDIO4" target="_blank">
-                  <i class="ti-pinterest"></i>
-                </a>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
-    </div>
-    
-    
-    <div class="related-projects mt-5">
-      <h3 class="text-center mb-5">Proyectos Relacionados</h3>
       
-      <div class="row">
-        
-        
-        
-        
-        
-        <div class="col-lg-4 col-md-6 mb-4">
-          <div class="portfolio-wrap">
-            <img src="/images/portfolio/item-1.png" alt="Cortometraje Stop Motion &#39;Sabor a mí&#39;" class="img-fluid">
-            <div class="portfolio-overlay">
-              <div class="portfolio-content">
-                <h4>Cortometraje Stop Motion &#39;Sabor a mí&#39;</h4>
-                <p>animación, producción</p>
-                <a href="/portfolio/project-1/" class="portfolio-link">Ver Detalles</a>
-              </div>
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item videojuegos produccion">
+        <div class="portfolio-wrap">
+          <img src="/images/portfolio/Molito.png" alt="Molito" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Molito</h4>
+              <p>Juego de un perro abandonado que intenta regresar a casa.</p>
+              <a href="portfolio/project-5" class="portfolio-link">Ver Detalles</a>
             </div>
           </div>
         </div>
-        
-        
       </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item experiencia">
+        <div class="portfolio-wrap">
+          <img src="/images/portfolio/item-6.png" alt="Jaula" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Jaula</h4>
+              <p>Experiencia inmersiva.</p>
+              <a href="portfolio/project-6" class="portfolio-link">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item ilustracion">
+        <div class="portfolio-wrap">
+          <img src="/images/portfolio/Robin.png" alt="Robin" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Robin</h4>
+              <p>Ilustración para campaña de concientización.</p>
+              <a href="portfolio/project-7" class="portfolio-link">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item postproduccion">
+        <div class="portfolio-wrap">
+          <img src="/images/portfolio/Melodia%20Bucanera.png" alt="Melodía Bucanera" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Melodía Bucanera</h4>
+              <p>Cortometraje animado que enseña que nunca es tarde para encontrar tu propósito.</p>
+              <a href="portfolio/project-8" class="portfolio-link">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-4 col-md-6 mb-4 portfolio-item direccion guion">
+        <div class="portfolio-wrap">
+          <img src="/images/portfolio/Dilo-Sin-Palabras.png" alt="Dilo sin Palabras" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h4>Dilo sin Palabras</h4>
+              <p>Cortometraje sobre una persona que aprende a expresarse sin hablar.</p>
+              <a href="portfolio/project-9" class="portfolio-link">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
     </div>
   </div>
 </section>
-
-
-<a href="#" class="back-to-top">
-  <i class="ti-arrow-up"></i>
-</a>
-
 
   </main>
   
@@ -586,9 +583,8 @@
           <h3 class="footer-heading">Redes Sociales</h3>
           <ul class="social-icons">
             <li><a href="https://www.linkedin.com/in/yaelmls/" target="_blank"><i class="ti-linkedin"></i></a></li>
-            <li><a href="https://www.instagram.com/yael_larios4?igsh=MTBhYW44MWdpMnk2Mw==" target="_blank"><i class="ti-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/yael_larios4" target="_blank"><i class="ti-instagram"></i></a></li>
             <li><a href="https://www.facebook.com/share/1EaqCzRxNu/" target="_blank"><i class="ti-facebook"></i></a></li>
-          
           </ul>
         </div>
       </div>
@@ -699,18 +695,16 @@
     return false;
   });
 </script>
-  
-  
   <script src="/js/theme.js"></script>
-  
+
   
   <script>
-    
-    $(window).on('load', function() {
-      $('.preloader').fadeOut(500);
+    window.addEventListener("load", function () {
+      const preloader = document.getElementById("preloader");
+      preloader.style.opacity = 0;
+      setTimeout(() => preloader.style.display = "none", 500);
     });
-    
-    
+
     $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if (scroll > 50) {
