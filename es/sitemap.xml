@@ -80,6 +80,19 @@
                 href="/es/categories/producci%C3%B3n/"
                 />
   </url><url>
+    <loc>/es/herramientas/</loc>
+    <lastmod>2023-08-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-us"
+                href="/herramientas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-mx"
+                href="/es/herramientas/"
+                />
+  </url><url>
     <loc>/es/portfolio/project-3/</loc>
     <lastmod>2023-02-01T12:00:00+06:00</lastmod>
     <xhtml:link
